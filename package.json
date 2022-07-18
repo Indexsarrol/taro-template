@@ -84,6 +84,6 @@
     "patch-package": "^6.4.7",
     "prettier": "^2.7.1",
     "sass-migrator": "^1.5.6",
-    "stylelint": "^14.9.1"
+    "stylelint": "13.9.0"
   }
 }
