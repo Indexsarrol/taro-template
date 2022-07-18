@@ -40,7 +40,8 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,scss}": "prettier --write",
-    "**/*.{js,jsx}": "npm run lint-staged:js"
+    "**/*.{js,jsx}": "npm run lint-staged:js",
+    "**/*.scss": "stylelint --syntax scss"
   },
   "browserslist": [
     "last 3 versions",
