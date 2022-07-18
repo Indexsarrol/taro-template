@@ -15,5 +15,6 @@ module.exports = {
         'jsx-quotes': ['error', 'prefer-single'],
         // 未重新赋值的变量使用 const 而不是 let
         'prefer-const': 'warn',
+        'no-console': ['error', { allow: ['warn', 'error'] }],
     },
 };

@@ -4,7 +4,7 @@ export default () => {
     return (
         <View>
             <Text>1234</Text>
-            <AtButton type='primary'>31312</AtButton>
+            <AtButton type='primary'>3113213312</AtButton>
         </View>
     );
 };
