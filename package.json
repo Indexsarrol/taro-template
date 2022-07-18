@@ -9,6 +9,7 @@
     "css": "sass"
   },
   "scripts": {
+    "prepare": "husky install",
     "postinstall": "patch-package",
     "build:weapp": "taro build --type weapp",
     "build:swan": "taro build --type swan",
@@ -33,7 +34,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-staged"
+      "pre-commit": "npm run lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
